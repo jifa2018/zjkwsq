@@ -1,3 +1,4 @@
+
 Page({
   data: {
     background: [
@@ -14,10 +15,13 @@ Page({
     duration: 1000,
     previousMargin: 0,
     nextMargin: 0,
-    windowWidth:0
+    windowWidth:0,
+    tipData:"围殴的收到回复深刻的回复撒地方哈，为士大夫收到回复收到回复很受打击发，水电开发和收到回复手机电话附件是的发士大夫123",
+    viewleft:0,
+    widthText:0,
   },
   onLoad:function(){
-    var self = this;
+    var self = this; 
     wx.getSystemInfo({
       success(res) {
         // console.log(res.model)
@@ -32,5 +36,6 @@ Page({
         })
       }
     })
+
   }
 })
