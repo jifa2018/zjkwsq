@@ -1,0 +1,13 @@
+<view class="container">
+    <view  style='width:{{windowWidth}}px' class="content-style-column">
+      <view class='notice-style nil-padding nil-margin content-style-row'>
+          <image class='notice-style-icon'  src='../resource/icon/laba.png'></image>
+          <text class='text-style test-border'>公告：</text>
+          <image class='notice-style-icon image-go' src='../resource/icon/directional_right.png'></image>  
+      </view>
+      <view class="swiper swiper-style">
+      <include src="../../template/swiper.wxml" />
+      </view>
+      <view>{{windowWidth}}</view>
+    </view>
+</view>
