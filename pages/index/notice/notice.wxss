@@ -1,0 +1,39 @@
+.notice-style {
+  height: 25px;
+  width: 100%;
+  background: rgb(255, 166, 0);
+  font-size: 14px;
+  padding: 3px;
+}
+
+.van-notice-bar {
+  padding: 0px;
+}
+
+.text-style {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70px;
+}
+
+.notice-style-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.image-go {
+  margin: 3px 8px 3px 3px;
+  height: 18px;
+  width: 24px;
+}
+
+.text-scroll {
+  color: #fff;
+  white-space: nowrap；;
+}
+
+.margin-style-right-20 {
+  margin-right: 20px;
+}

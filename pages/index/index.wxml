@@ -1,16 +1,7 @@
 <view class="container">
-    <view  style='width:{{windowWidth}}px' class="content-style-column">
-      <view class='notice-style nil-padding nil-margin content-style-row'>
-          <image class='notice-style-icon'  src='../resource/icon/laba.png'></image>
-          <text class='text-style test-border'>公告：</text>
-          <view class='margin-style-right-20 width80 style-content text-style-overflow'>
-            <text class='text-scroll'>{{tipData}}</text>
-          </view>
-          <image class='notice-style-icon image-go' src='../resource/icon/rightP.png'></image>  
-      </view>
-      <view class="swiper swiper-style">
-      <include src="../../template/swiper.wxml" />
-      </view>
-      <view>{{windowWidth}}</view>
-    </view>
+  <view style='width:{{windowWidth}}px' class="content-style-column">
+    <include src="notice/notice.wxml" />
+    <include src="banner/banner.wxml" />
+    <include src="pushContent/pushContent.wxml" />
+  </view>
 </view>

@@ -1,9 +1,0 @@
-<swiper class="swiper-style" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-  <block wx:for="{{background}}" wx:key="*this">
-    <swiper-item class="swiper-item-style">
-      <view class="swiper-view">
-        <image class='image-style' src='{{item}}'></image>
-      </view>
-    </swiper-item>
-  </block>
-</swiper>
