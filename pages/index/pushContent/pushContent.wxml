@@ -1,0 +1,21 @@
+<view class='view-ts content-style-row'>
+  <!-- <view style='padding:10px'>
+    <van-icon name="hot-o" color='red' size="25px" info="1"></van-icon>
+  </view> -->
+  
+  <view style="font-size:12px;padding:3px" class='content-style-column font-color-red'>
+    <view class='content-style-row'>
+      <text class="text-style-push">热推</text>
+      <text style='margin:0 0 0 6px;font-size:16px'>||</text>
+    </view>
+    <view class='content-style-row'>
+      <text class="text-style-push">头条</text>
+      <text style='margin:0 0 0 6px;font-size:16px'>||</text>
+    </view>
+    <!-- <text class="text-style-push">头条</text> -->
+  </view>
+  <view class='content-style-column font-color-red'>
+    <!-- <text style='margin:3px'>||</text>
+    <text style='margin:0 3px 3px 3px'>||</text> -->
+  </view>
+</view>

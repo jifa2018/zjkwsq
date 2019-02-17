@@ -1,0 +1,10 @@
+<view class='notice-style nil-padding nil-margin content-style-row'>
+  <view class="notice-style-icon" style="padding:3px">
+    <van-icon name="volume" color="#fff" size='20px' style='margin-top:3px'></van-icon>
+  </view>
+  <text class='text-style test-border'>公告：</text>
+  <view class='margin-style-right-20 width80 style-content text-style-overflow'>
+    <van-notice-bar scrollable="{{isScroll}}" text="{{tipData}}" />
+  </view>
+  <van-icon name="arrow" color="#fff" bindtap="noticedetail" class='notice-style-icon image-go'></van-icon>
+</view>
