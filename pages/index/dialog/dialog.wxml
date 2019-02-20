@@ -1,0 +1,19 @@
+<!--pages/index/dialog.wxml-->
+
+<van-popup show="{{ show }}" bind:close="onClose">
+  <view class='wrapper'>
+    <view class='titleBg'>
+      <image src='../.././resource/images/tipbg.png' style='width:100%;height:100%'></image>
+    </view>
+    <view class='laba'>
+      <image src='../.././resource/icon/laba2.png' style='width:100%;height:100%'></image>
+    </view>
+    <view class='title'>公告</view>
+    <scroll-view class='content' scroll-y='true'>
+      {{content}}
+    </scroll-view>
+    <view class='sure'>
+      <button class='btn_sure' bindtap='onClose'>我知道了</button>
+    </view>
+  </view>
+</van-popup>
