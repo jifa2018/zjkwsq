@@ -1,11 +1,20 @@
 /* 公告的样式 */
+<<<<<<< HEAD
 @import "notice.wxss";  
 page {
   background-color: rgb(214, 214, 214);
+=======
+@import "notice/notice.wxss";
+@import "pushContent/pushContent.wxss";
+
+page {
+  background-color: rgb(255, 255, 255);
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
   height: 100%;
   font-size: 32rpx;
   line-height: 1.6;
 }
+<<<<<<< HEAD
 .page-body{
   padding-top: 60px;
 }
@@ -14,10 +23,24 @@ page {
   margin-bottom: 60rpx;
 }
 .page-section_center{
+=======
+
+.page-body {
+  padding-top: 60px;
+}
+
+.page-section {
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.page-section_center {
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+<<<<<<< HEAD
 .page-section:last-child{
   margin-bottom: 0;
 }
@@ -25,22 +48,47 @@ page {
   box-sizing: border-box;
   padding: 0 30rpx;
 }
+=======
+
+.page-section:last-child {
+  margin-bottom: 0;
+}
+
+.page-section-gap {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
 /* .page-section-spacing{
   box-sizing: border-box;
   padding: 0 80rpx;
 } */
+<<<<<<< HEAD
 .page-section-title{
   font-size: 28rpx;
   color: #999999;
+=======
+
+.page-section-title {
+  font-size: 28rpx;
+  color: #999;
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
   margin-bottom: 10rpx;
   padding-left: 30rpx;
   padding-right: 30rpx;
 }
+<<<<<<< HEAD
 .page-section-gap .page-section-title{
+=======
+
+.page-section-gap .page-section-title {
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
   padding-left: 0;
   padding-right: 0;
 }
 
+<<<<<<< HEAD
 .demo-text-1{
   position: relative;
   align-items: center;
@@ -50,12 +98,25 @@ page {
   font-size: 36rpx;
 }
 .demo-text-1:before{
+=======
+.demo-text-1 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #1aad19;
+  color: #fff;
+  font-size: 36rpx;
+}
+
+.demo-text-1:before {
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
   content: 'A';
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+<<<<<<< HEAD
 .demo-text-2{
   position: relative;
   align-items: center;
@@ -65,12 +126,26 @@ page {
   font-size: 36rpx;
 }
 .demo-text-2:before{
+=======
+
+.demo-text-2 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #2782d7;
+  color: #fff;
+  font-size: 36rpx;
+}
+
+.demo-text-2:before {
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
   content: 'B';
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+<<<<<<< HEAD
 .demo-text-3{
   position: relative;
   align-items: center;
@@ -80,6 +155,19 @@ page {
   font-size: 36rpx;
 }
 .demo-text-3:before{
+=======
+
+.demo-text-3 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  color: #353535;
+  font-size: 36rpx;
+}
+
+.demo-text-3:before {
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
   content: 'C';
   position: absolute;
   top: 50%;
@@ -87,6 +175,7 @@ page {
   transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
 button{
   margin-bottom: 30rpx;
 }
@@ -112,11 +201,66 @@ button:last-child{
   width:100%;
 }
 .info{
+=======
+button {
+  margin-bottom: 30rpx;
+}
+
+button:last-child {
+  margin-bottom: 0;
+}
+
+.swiper-style {
+  width: 100%;
+  height: 120px;
+}
+
+.swiper-view {
+  height: 100%;
+  width: 100%;
+}
+
+.image-style {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-item-style {
+  height: 100px;
+  width: 100%;
+}
+
+.info {
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
   position: absolute;
   right: 0;
   color: #353535;
   font-size: 30rpx;
 }
+<<<<<<< HEAD
 .page-foot{
   margin-top: 50rpx;
 }
+=======
+
+.page-foot {
+  margin-top: 50rpx;
+}
+
+/* 统一模块分割上边距 */
+
+.marginTop {
+  margin-top: 5px;
+}
+
+/* 超出文字的部分省略 */
+
+.textoverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.border-style-bottom{
+  border-bottom: 1px solid #f1f1f1 ;
+}
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac

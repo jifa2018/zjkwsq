@@ -1,0 +1,30 @@
+<view class='border-style-bottom view-ts content-style-row'>
+  <van-row class="font-color-red" style='width:100%;font-size:12px;padding:3px;'>
+    <van-col span="5">
+      <view class='content-style-row'>
+        <text class="text-style-push">热推</text>
+        <text style='margin:0 0 0 6px;font-size:16px'>||</text>
+      </view>
+      <view class='content-style-row'>
+        <text class="text-style-push">头条</text>
+        <text style='margin:0 0 0 6px;font-size:16px'>||</text>
+      </view>
+    </van-col>
+    <van-col class="font-style-block" span="19">
+      <swiper style='height:20px;margin-top:3px;padding:0 6px 0 0' indicator-dots="{{false}}" autoplay="{{autoplay}}" circular="{{true}}" vertical="{{true}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{retui}}" wx:key="*this">
+          <swiper-item class="textoverflow">
+            <text>{{item}}</text>
+          </swiper-item>
+        </block>
+      </swiper>
+      <swiper style='height:20px;margin-top:10px;padding:0 6px 0 0' indicator-dots="{{false}}" autoplay="{{autoplay}}"  circular="{{true}}"  vertical="{{true}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{toutiao}}" wx:key="*this">
+          <swiper-item class="textoverflow">
+            <text>{{item}}</text>
+          </swiper-item>
+        </block>
+      </swiper>
+    </van-col>
+  </van-row>
+</view>

@@ -1,4 +1,5 @@
 <view class="container">
+<<<<<<< HEAD
     <view  style='width:{{windowWidth}}px' class="content-style-column">
       <view class='notice-style nil-padding nil-margin content-style-row'>
           <image class='notice-style-icon'  src='../resource/icon/laba.png'></image>
@@ -11,3 +12,11 @@
       <view>{{windowWidth}}</view>
     </view>
 </view>
+=======
+  <view style='width:{{windowWidth}}px' class="content-style-column">
+    <include src="notice/notice.wxml" />
+    <include src="banner/banner.wxml" />
+    <include src="pushContent/pushContent.wxml" />
+  </view>
+</view>
+>>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
