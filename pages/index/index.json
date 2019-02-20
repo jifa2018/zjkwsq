@@ -1,13 +1,9 @@
 {
   "navigationBarTitleText": "首页",
-<<<<<<< HEAD
-  "usingComponents": {}
-=======
   "usingComponents": {
     "van-notice-bar": "../../dist/notice-bar/index",
     "van-icon":"../../dist/icon/index",
     "van-row": "../../dist/row/index",
     "van-col": "../../dist/col/index"
   }
->>>>>>> 9c620c8e422cc6ae24f0d82cb0305d5332b51dac
 }
