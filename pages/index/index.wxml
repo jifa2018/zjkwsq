@@ -3,5 +3,7 @@
     <include src="notice/notice.wxml" />
     <include src="banner/banner.wxml" />
     <include src="pushContent/pushContent.wxml" />
+    <include src="minNotice/minNotice.wxml" />
+    <include src="tabContent/tabContent.wxml" />
   </view>
 </view>

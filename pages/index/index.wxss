@@ -1,9 +1,10 @@
 /* 公告的样式 */
 @import "notice/notice.wxss";
 @import "pushContent/pushContent.wxss";
+@import "tabContent/tabContent.wxss";
 
 page {
-  background-color: rgb(255, 255, 255);
+  background-color: #eee;
   height: 100%;
   font-size: 32rpx;
   line-height: 1.6;
@@ -139,20 +140,6 @@ button:last-child {
 
 .page-foot {
   margin-top: 50rpx;
-}
-
-/* 统一模块分割上边距 */
-
-.marginTop {
-  margin-top: 5px;
-}
-
-/* 超出文字的部分省略 */
-
-.textoverflow {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .border-style-bottom{
   border-bottom: 1px solid #f1f1f1 ;

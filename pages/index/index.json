@@ -4,6 +4,8 @@
     "van-notice-bar": "../../dist/notice-bar/index",
     "van-icon":"../../dist/icon/index",
     "van-row": "../../dist/row/index",
-    "van-col": "../../dist/col/index"
+    "van-col": "../../dist/col/index",
+    "van-tab": "../../dist/tab/index",
+    "van-tabs": "../../dist/tabs/index"
   }
 }

@@ -1,11 +1,13 @@
 Page({
   data: {
+    tabContentActive:0,
     background: [
       '../resource/banner/1.jpg',
       '../resource/banner/2.jpg',
       '../resource/banner/3.jpg',
       '../resource/banner/4.jpg'
     ],
+    minNotice:'../resource/banner/4.jpg',
     retui: [
       '沟通吧v夫人通过比你还要通吧v夫人通过比你还要',
       '美军还有不过他人妇v吃的通吧v夫人通过比你还要',
@@ -35,6 +37,15 @@ Page({
     fontSize: 14,
     animation: {},
     isScroll: true,
+    activeColor:0,
+  },
+  tabContentActiveOnChange(event) {
+    this.changeColorText(event.detail.index);
+  },
+  changeColorText: function(index){
+    this.setData({
+      activeColor:index,
+    })
   },
   noticedetail: function (event) {
     console.log("进入详情页")
@@ -58,5 +69,5 @@ Page({
         })
       }
     })
-  }
+  },
 })
