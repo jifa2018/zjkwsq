@@ -60,3 +60,13 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* 统一向上距离 */
+.marginTop{
+  margin-top:5px;
+}
+
+/* 统一白色背景 */
+.bgWhite{
+  background-color: white;
+}

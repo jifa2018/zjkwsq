@@ -1,0 +1,29 @@
+<view class='marginTop'>
+  <van-tabs line-width="80" border="{{true}}" swipeable="{{true}}" animated='{{true}}' active="{{ tabContentActive }}" bind:change="tabContentActiveOnChange">
+    <van-tab title-style="color:{{activeColor == 0 ? 'red' : '#999'}}" title="热赞榜">
+      <view class='bgWhite marginTop content_rz'>
+        <van-row>
+          <van-col span="5">
+            <view class='padding10'>
+              <image class='header-style' src="{{minNotice}}"></image>
+            </view>
+          </van-col>
+          <van-col span="9">
+            <view class='padding10'>
+              <text style='color:#e40'>海大富</text>
+            </view>
+          </van-col>
+          <van-col style="width:100%" span="10">
+            <view class='padding10 content-style-column'>
+              <button style='margin-bottom:10px;width:80px;height:25px;font-size:12px;line-height:200%;margin-right:5px;' type="warn">📞 电 话</button>
+              <button style='margin-right:5px;width:80px;height:25px;font-size:12px;line-height:200%' type="primary">微 信</button>
+            </view>
+          </van-col>
+        </van-row>
+      </view>
+    </van-tab>
+    <van-tab title-style="color:{{activeColor == 1 ? 'red' : '#999'}}" title="热推榜">内容 2</van-tab>
+    <van-tab title=""></van-tab>
+    <van-tab title=""></van-tab>
+  </van-tabs>
+</view>
